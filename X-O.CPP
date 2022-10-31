@@ -131,6 +131,7 @@ void Xmove(char ch)
          nofs++;
          break;
       case 'd':
+      case 'D':
       	if(x <= 39)
          {
          	x += 10;
@@ -143,6 +144,7 @@ void Xmove(char ch)
          }
          break;
       case 's':
+      case 'S':
       	if(y <= 12)
          {
          	y += 4;
@@ -155,6 +157,7 @@ void Xmove(char ch)
          }
          break;
       case 'w':
+      case 'W':
       	if(y >= 12)
          {
          	y -= 4;
@@ -167,6 +170,7 @@ void Xmove(char ch)
          }
          break;
       case 'a':
+      case 'A':
       	if(x >= 39)
          {
          	x -= 10;
